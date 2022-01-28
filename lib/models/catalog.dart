@@ -1,9 +1,9 @@
 class Item{
-  final int id;
-  final String name;
-  final String description;
-  final int price;
-  final String imageUrl;
+  final int? id;
+  final String? name;
+  final String? description;
+  final int? price;
+  final String? imageUrl;
 
   Item({this.id, this.name, this.description, this.price, this.imageUrl});
 }
@@ -12,7 +12,7 @@ class Item{
 
 class CatalogList{
   static final items=[
-    Item(id: 1,name: 'IPhone 12 Pro',description: 'IPhone 12 Pro, Midnight Blue, 256 GB',price: 1299,imageUrl: 'https://m.media-amazon.com/images/G/31/img20/Wireless/Apple/iPhone12/AMZ_FamiyStripe_iPhone_12ProMax._CB419233187_.png'),
+    Item(id: 1,name: 'IPhone 12 Pro',description: 'IPhone 12 Pro, Midnight Blue, 256 GB',price: 1299,imageUrl: 'https://cdn.sharafdg.com/cdn-cgi/image/width=600,height=600,fit=pad/assets/e/c/d/e/ecde15a8ca4e4fbb1bdb2d3c4abe8f6a444cdf06_iPhone_12_Pro_PacificBlue_5G_PDP_Image_Position_2_EN.jpg'),
     Item(id: 2,name: 'Google Pixel 5',description: 'Google Pixel 5, Black, 128GB',price: 899,imageUrl: 'https://i2.wp.com/9to5google.com/wp-content/uploads/sites/4/2020/09/Eir8KvGX0AA8ntx.png?ssl=1'),
     Item(id: 3,name: 'Samsung Galaxy S21',description: 'Samsung Galaxy S21, Glossy Purple, 512GB',price: 1099,imageUrl: 'https://images.samsung.com/is/image/samsung/p6pim/in/galaxy-s21/gallery/in-galaxy-s21-5g-g991-371114-371114-sm-g991bzvdinu-368339376?'),
     Item(id: 4,name: 'OnePlus 9',description: 'OnePlus 9, Purple, 256GB',price: 899,imageUrl: 'https://oasis.opstatics.com/content/dam/oasis/page/2021/9-series/spec-image/9/Wintermist_2080a_euna.png'),

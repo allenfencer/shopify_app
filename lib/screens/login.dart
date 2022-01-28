@@ -3,7 +3,7 @@ import 'package:flutter/material.dart';
 import 'homepage.dart';
 
 class Login extends StatelessWidget {
-  const Login({Key key}) : super(key: key);
+  const Login({Key? key}) : super(key: key);
 
   @override
   Widget build(BuildContext context) {
@@ -27,8 +27,8 @@ class Login extends StatelessWidget {
               decoration: InputDecoration(
                 labelText: 'Email',
                 labelStyle: TextStyle(fontSize: 18,color: Colors.deepPurple[900]),
-                enabledBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(20),borderSide: BorderSide(color: Colors.deepPurple[900],width: 2)),
-                focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(20),borderSide: BorderSide(color: Colors.deepPurple[900],width: 2)),
+                enabledBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(20),borderSide: BorderSide(color: Colors.deepPurple[900]!,width: 2)),
+                focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(20),borderSide: BorderSide(color: Colors.deepPurple[900]!,width: 2)),
               ),
             ),
           ),
@@ -41,8 +41,8 @@ class Login extends StatelessWidget {
               decoration: InputDecoration(
                   labelText: 'Password',
                   labelStyle: TextStyle(fontSize: 18,color: Colors.deepPurple[900]),
-                  enabledBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(20),borderSide: BorderSide(color: Colors.deepPurple[900],width: 2)),
-                  focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(20),borderSide: BorderSide(color: Colors.deepPurple[900],width: 2)),
+                  enabledBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(20),borderSide: BorderSide(color: Colors.deepPurple[900]!,width: 2)),
+                  focusedBorder: OutlineInputBorder(borderRadius: BorderRadius.circular(20),borderSide: BorderSide(color: Colors.deepPurple[900]!,width: 2)),
 
               ),
             ),
